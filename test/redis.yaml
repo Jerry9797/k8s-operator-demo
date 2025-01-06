@@ -1,0 +1,7 @@
+apiVersion: myapp.test.com/v1
+kind: Redis
+metadata:
+  name: myredis
+spec:
+  num: 3
+  port: 2379
